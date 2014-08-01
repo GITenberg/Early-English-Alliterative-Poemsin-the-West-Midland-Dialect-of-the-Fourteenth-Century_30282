@@ -1,0 +1,114 @@
+
+/* shared css for all files */
+
+body {margin-left: 10%; margin-right: 10%;}
+
+hr {width: 80%; margin-top: 1em; margin-bottom: 1em;}
+hr.mid {width: 40%;}
+hr.small {width: 30%;}
+hr.micro {width: 10%;}
+
+
+/* anchors */
+
+div.maintext a, div.mynote a {text-decoration: none;}
+
+table.toc a {text-decoration: none; color: #009;
+background-color: inherit;}
+
+a.tag {vertical-align: .3em; font-size: 80%;
+padding-left: .25em; line-height: .1em; font-style: normal;}
+h1 a.tag, h2 a.tag, h3 a.tag, h4 a.tag
+{font-size: small; vertical-align: .5em; line-height: normal;}
+
+a.error {border-bottom: 1px dotted red;}
+
+span.texttag {border-bottom: 1px solid #88F;}
+/* pseudo-link */
+
+
+/* headers */
+
+h1, h2, h3, h4, h5, h6 {text-align: center; font-style: normal;
+font-weight: normal; line-height: 1.5;
+margin-top: .5em; margin-bottom: .5em;}
+h1, h2, h3, h4 {clear: both;}
+
+h1 {font-size: 250%;}
+h2 {font-size: 200%;}
+h3 {font-size: 150%;}
+div.maintext h3 {margin-top: 3em;}
+h4 {font-size: 120%;}
+div.maintext h4 {margin-top: 2em;}
+div.contents h4, div.mynote h4, div.endnote h4 {margin-top: .5em;}
+h5 {font-size: 100%;}
+div.mynote h5 {margin-top: 1em; margin-bottom: .5em;}
+h6 {font-size: 85%;}
+
+
+/* paragraphs */
+
+p {margin-top: .5em; margin-bottom: 0em; line-height: 1.2;}
+
+p.center {text-align: center;}
+p.illustration {text-align: center; margin-top: 1em;
+margin-bottom: 1em;}
+
+
+/* tables */
+
+table {margin-left: auto; margin-right: auto; margin-top: 1em;
+margin-bottom: 1em; border-collapse: collapse; line-height: inherit;
+font-size: inherit; font-family: inherit; clear: left;}
+
+table.toc {margin-top: 1em; margin-bottom: 1em;}
+
+td {vertical-align: top; text-align: left; padding: .1em;}
+
+td.number {text-align: right; padding-left: 1em;}
+
+td.inset {padding-left: 1em;}
+
+td.bracket {padding-right: 1em; vertical-align: middle;
+background-repeat: no-repeat; background-position: 95% 50%;
+background-image: url("images/bracket.gif");}
+td.bracket + td {vertical-align: middle;}
+
+table.toc p {margin-left: 2em; text-indent: -2em; margin-top: 0;}
+
+table.inner {margin: 0;}
+table.inner td {padding-left: 0;}
+
+
+/* text formatting */
+
+.smallcaps {font-variant: small-caps; font-style: normal;}
+
+
+/* correction popup */
+
+ins.correction {text-decoration: none; border-bottom: thin dotted red;}
+ins.quotation {text-decoration: none; border-bottom: thin dashed red;}
+
+
+/* page number */
+
+span.pagenum {position: absolute; font-size: 88%; font-weight: normal;
+font-style: normal; text-indent: 0;}
+
+
+/* Transcriber's Note */
+
+.mynote {background-color: #DDE; color: inherit;
+font-family: sans-serif; font-size: 90%;}
+div.mynote {padding: .5em 1em 1em; margin: 1em 0;}
+p.mynote {margin: 1em 5%; padding: 1em;}
+
+div.contents {margin: 2em 4em; padding: .5em; border: 3px ridge #669;
+font-family: sans-serif; font-size: 90%;}
+
+div.endnote {padding: .5em 1em; margin: 2em 0;
+border: 3px ridge #669; font-family: sans-serif; font-size: 90%;}
+div.endnote p, div.mynote p {margin-left: 0; text-indent: 0;
+margin-top: .5em;}
+
