@@ -1,0 +1,31 @@
+_repo: Early-English-Alliterative-Poemsin-the-West-Midland-Dialect-of-the-Fourteenth-Century_30282
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  editor:
+    agent_name: Morris, Richard
+    alias: Morris, R. (Richard)
+    birthdate: 1833
+    deathdate: 1894
+    gutenberg_agent_id: '34489'
+    url: http://www.gutenberg.org/2009/agents/34489
+description: ''
+gutenberg_bookshelf: Early English Text Society
+gutenberg_issued: '2009-10-19'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '30282'
+  lccn: '67004408'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'English poetry -- Middle English, 1100-1500'
+- !lcc 'PR'
+title: 'Early English Alliterative Poems
+
+  in the West-Midland Dialect of the Fourteenth Century'
+url: http://www.gutenberg.org/ebooks/30282
