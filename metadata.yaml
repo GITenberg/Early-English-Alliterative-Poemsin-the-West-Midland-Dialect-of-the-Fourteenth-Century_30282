@@ -12,6 +12,8 @@ creator:
     gutenberg_agent_id: '34489'
     url: http://www.gutenberg.org/2009/agents/34489
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/30282#Early-English-Alliterative-Poemsin-the-West-Midland-Dialect-of-the-Fourteenth-Century
 gutenberg_bookshelf: Early English Text Society
 gutenberg_issued: '2009-10-19'
 gutenberg_type: Text
